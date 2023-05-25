@@ -1,0 +1,955 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "demo.exe"
+		},
+		{
+			"path" : "demo.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"vtk_module_autoinit"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"D:/tools/VTK/lib/cmake/vtk-9.2/vtkModule.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 3251,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "DIY_NO_THREADS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_SHARED"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "H5_BUILT_AS_DYNAMIC_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "KISSFFT_DLL_IMPORT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LZ4_DLL_IMPORT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "VTK_HAS_OGGTHEORA_SUPPORT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "kiss_fft_scalar=double"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "vtkDomainsChemistry_AUTOINIT_INCLUDE=\"C:/Users/ASUS/Desktop/demo/out/build/x64-Debug/CMakeFiles/vtkModuleAutoInit_bd64b765fc8236aa4bea0b628e677e8c.h\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "vtkFiltersCore_AUTOINIT_INCLUDE=\"C:/Users/ASUS/Desktop/demo/out/build/x64-Debug/CMakeFiles/vtkModuleAutoInit_bd64b765fc8236aa4bea0b628e677e8c.h\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "vtkIOExportGL2PS_AUTOINIT_INCLUDE=\"C:/Users/ASUS/Desktop/demo/out/build/x64-Debug/CMakeFiles/vtkModuleAutoInit_bd64b765fc8236aa4bea0b628e677e8c.h\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "vtkIOExport_AUTOINIT_INCLUDE=\"C:/Users/ASUS/Desktop/demo/out/build/x64-Debug/CMakeFiles/vtkModuleAutoInit_bd64b765fc8236aa4bea0b628e677e8c.h\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "vtkRenderingContext2D_AUTOINIT_INCLUDE=\"C:/Users/ASUS/Desktop/demo/out/build/x64-Debug/CMakeFiles/vtkModuleAutoInit_bd64b765fc8236aa4bea0b628e677e8c.h\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "vtkRenderingCore_AUTOINIT_INCLUDE=\"C:/Users/ASUS/Desktop/demo/out/build/x64-Debug/CMakeFiles/vtkModuleAutoInit_bd64b765fc8236aa4bea0b628e677e8c.h\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "vtkRenderingOpenGL2_AUTOINIT_INCLUDE=\"C:/Users/ASUS/Desktop/demo/out/build/x64-Debug/CMakeFiles/vtkModuleAutoInit_bd64b765fc8236aa4bea0b628e677e8c.h\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "vtkRenderingVolume_AUTOINIT_INCLUDE=\"C:/Users/ASUS/Desktop/demo/out/build/x64-Debug/CMakeFiles/vtkModuleAutoInit_bd64b765fc8236aa4bea0b628e677e8c.h\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/tools/VTK/include/vtk-9.2"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/tools/VTK/include/vtk-9.2/vtkfreetype/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/tools/VTK/include/vtk-9.2/vtkhdf5"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/tools/VTK/include/vtk-9.2/vtkhdf5/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/tools/VTK/include/vtk-9.2/vtkhdf5/hl/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/tools/VTK/include/vtk-9.2/vtknlohmannjson/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/tools/VTK/include/vtk-9.2/vtkogg/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/tools/VTK/include/vtk-9.2/vtklibproj/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/tools/VTK/include/vtk-9.2/vtklibxml2/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "demo::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkWrappingTools-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkViewsInfovis-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkViewsContext2D-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkTestingRendering-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingVolumeOpenGL2-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingLabel-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingLOD-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingLICOpenGL2-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingImage-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingContextOpenGL2-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOVeraOut-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOTecplotTable-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOSegY-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOParallelXML-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOParallel-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOPLY-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOOggTheora-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtktheora-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkogg-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIONetCDF-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOMotionFX-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOMINC-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOLSDyna-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOInfovis-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtklibxml2-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOImport-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOIOSS-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkioss-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOVideo-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOMovie-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOExportPDF-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOExportGL2PS-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingGL2PSOpenGL2-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkgl2ps-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOExport-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingVtkJS-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingSceneGraph-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOExodus-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOEnSight-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOCityGML-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOChemistry-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOCesium3DTiles-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOGeometry-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOCONVERGECFD-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOHDF-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOCGNSReader-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOAsynchronous-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOAMR-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkInteractionImage-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkImagingStencil-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkImagingStatistics-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkImagingMorphological-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkImagingMath-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkImagingFourier-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOSQL-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkGeovisCore-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkInfovisLayout-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkViewsCore-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkInteractionWidgets-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingVolume-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingAnnotation-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkImagingHybrid-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkImagingColor-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkInteractionStyle-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersTopology-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersSelection-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersSMP-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersProgrammable-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersPoints-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersVerdict-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkverdict-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersParallelImaging-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersImaging-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkImagingGeneral-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersGeneric-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersFlowPaths-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersAMR-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersParallel-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersTexture-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersModeling-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkDomainsChemistryOpenGL2-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingOpenGL2-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingHyperTreeGrid-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingUI-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersHyperTree-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersHybrid-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkDomainsChemistry-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkChartsCore-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkInfovisCore-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersExtraction-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkParallelDIY-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOXML-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOXMLParser-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkexpat-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkParallelCore-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOLegacy-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOCore-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkdoubleconversion-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtklz4-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtklzma-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersStatistics-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkImagingSources-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkIOImage-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkDICOMParser-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkmetaio-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtktiff-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingContext2D-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingFreeType-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkfreetype-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkRenderingCore-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersSources-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkImagingCore-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersGeometry-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersGeneral-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkCommonComputationalGeometry-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkFiltersCore-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkCommonExecutionModel-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtklibharu-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkjsoncpp-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkexodusII-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtknetcdf-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkcgns-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkhdf5_hl-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkhdf5-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtklibproj-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtksqlite-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkpng-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkjpeg-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkglew-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkzlib-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkCommonColor-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkfmt-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkCommonDataModel-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkpugixml-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkCommonSystem-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkCommonMisc-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkCommonTransforms-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkCommonMath-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkkissfft-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkCommonCore-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtkloguru-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\tools\\VTK\\lib\\vtksys-9.2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "dbghelp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "psapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "demo",
+	"nameOnDisk" : "demo.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "demo.cxx",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
